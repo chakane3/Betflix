@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		6FC808933EA69FC6032A21A2 /* Pods-Betflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Betflix.release.xcconfig"; path = "Target Support Files/Pods-Betflix/Pods-Betflix.release.xcconfig"; sourceTree = "<group>"; };
-		9405E11D2359658100CC937F /* Betflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9405E11D2359658100CC937F /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9405E1202359658100CC937F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9405E1222359658100CC937F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9405E1272359658100CC937F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		9405E11E2359658100CC937F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9405E11D2359658100CC937F /* Betflix.app */,
+				9405E11D2359658100CC937F /* Flix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			);
 			name = Betflix;
 			productName = Betflix;
-			productReference = 9405E11D2359658100CC937F /* Betflix.app */;
+			productReference = 9405E11D2359658100CC937F /* Flix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -377,7 +377,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chakane.Betflix;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flix;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,7 +396,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chakane.Betflix;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flix;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
